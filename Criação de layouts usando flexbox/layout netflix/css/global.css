@@ -1,0 +1,34 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --cor-fundo: #141414;
+  --cor-card-motivo: #1f1f3a;
+  --cor-texto: #ffffff;
+  --cor-subtexto: #d1d1d1;
+  --font: 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+  background-color: var(--cor-fundo);
+  font-family: var(--font);
+  color: var(--cor-texto);
+  padding: 40px 48px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+section.slot, main.slot {
+  outline: 2px solid #f59e0b;
+}
+
+.slot {
+  outline: 1px dashed rgba(255, 0, 0, 0.4);
+}

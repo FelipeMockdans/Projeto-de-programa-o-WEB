@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout de Cards</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="cabecalho">
+    <div class="topo">
+      <div class="logo">Dribbble</div>
+
+      <div class="barra-pesquisa">
+        <input type="text" placeholder="What are you looking for?">
+        <div class="filtro-shots">Shots ▾</div>
+        <button class="botao-busca">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+        </button>
+      </div>
+
+      <nav class="menu-principal">
+        <a href="#">Explore ▾</a>
+        <a href="#">Hire a Designer ▾</a>
+        <a href="#">Find Jobs</a>
+        <a href="#">Blog</a>
+      </nav>
+
+      <div class="acoes-usuario">
+        <a href="#" class="cadastro">Sign up</a>
+        <a href="#" class="login">Log in</a>
+      </div>
+    </div>
+
+    <div class="barra-categorias">
+      <button class="botao-popular">Popular ▾</button>
+
+      <nav class="menu-categorias">
+        <a href="#" class="ativo">Discover</a>
+        <a href="#">Animation</a>
+        <a href="#">Branding</a>
+        <a href="#">Illustration</a>
+        <a href="#">Mobile</a>
+        <a href="#">Print</a>
+        <a href="#">Product Design</a>
+        <a href="#">Typography</a>
+        <a href="#">Web Design</a>
+      </nav>
+
+      <button class="botao-filtro">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="11" y1="18" x2="13" y2="18"/>
+        </svg>
+        Filters
+      </button>
+    </div>
+  </header>
+
+  <main class="conteudo-principal">
+    <section class="grade-cards">
+
+      <article class="card">
+        <div class="imagem-card">
+          <img src="https://cdn.dribbble.com/userupload/3719041/file/original-8e2be4d2b3fa17a33e5d3c88e4770b4c.png" alt="Arboris Branding">
+        </div>
+        <div class="info-card">
+          <div class="autor-card">
+            <img class="avatar" src="https://cdn.dribbble.com/users/1668916/avatars/small/open-uri20200914-13-kxvf7o?1600101072" alt="avatar">
+            <span class="nome-autor">Deividas Bielskis</span>
+            <span class="selo">PRO</span>
+          </div>
+          <div class="estatisticas-card">
+            <span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+              90
+            </span>
+            <span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              13.1k
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="imagem-card">
+          <img src="https://cdn.dribbble.com/userupload/3783076/file/original-ab32d25a63618cf4b9a6f5d0e96c8e0e.png" alt="Logo Design">
+        </div>
+        <div class="info-card">
+          <div class="autor-card">
+            <img class="avatar" src="https://cdn.dribbble.com/users/1738069/avatars/small/open-uri20200804-8-1l44cne?1596549968" alt="avatar">
+            <span class="nome-autor">Alfrey Davilla | vaneltia</span>
+            <span class="selo">PRO</span>
+          </div>
+          <div class="estatisticas-card">
+            <span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+              79
+            </span>
+            <span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              13.1k
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="imagem-card">
+          <img src="https://cdn.dribbble.com/userupload/3675229/file/original-08df6b77d63bc5e5b0e55dcf6f1e69e7.jpg" alt="Tides Illustration">
+        </div>
+        <div class="info-card">
+          <div class="autor-card">
+            <img class="avatar" src="https://cdn.dribbble.com/users/1254/avatars/small/dribbble_avi.jpg?1368605976" alt="avatar">
+            <span class="nome-autor">Kendrick Kidd</span>
+            <span class="selo">PRO</span>
+          </div>
+          <div class="estatisticas-card">
+            <span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+              61
+            </span>
+            <span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              6.6k
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="imagem-card" style="background:#111;">
+          <img src="https://cdn.dribbble.com/userupload/3831261/file/original-f3c1e1e3c6b4f9a7a6e3f1c1e3c6b4f9.png" alt="ST Monogram">
+        </div>
+        <div class="info-card">
+          <div class="autor-card">
+            <img class="avatar" src="https://cdn.dribbble.com/users/163672/avatars/small/photo.jpg?1631124427" alt="avatar">
+            <span class="nome-autor">Lucas Fields</span>
+            <span class="selo">PRO</span>
+          </div>
+          <div class="estatisticas-card">
+            <span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+              57
+            </span>
+            <span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              5.2k
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="imagem-card">
+          <img src="https://cdn.dribbble.com/userupload/3719041/file/original-8e2be4d2b3fa17a33e5d3c88e4770b4c.png" alt="Nixtio App">
+        </div>
+        <div class="info-card">
+          <div class="autor-card">
+            <img class="avatar" src="https://cdn.dribbble.com/users/329207/avatars/small/open-uri20200616-13-1fbh4mb?1592321271" alt="avatar">
+            <span class="nome-autor">Nixtio</span>
+            <span class="selo equipe">TEAM</span>
+          </div>
+          <div class="estatisticas-card">
+            <span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+              193
+            </span>
+            <span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              11.9k
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="imagem-card">
+          <img src="https://cdn.dribbble.com/userupload/3783076/file/original-ab32d25a63618cf4b9a6f5d0e96c8e0e.png" alt="Timecut Logo">
+        </div>
+        <div class="info-card">
+          <div class="autor-card">
+            <img class="avatar" src="https://cdn.dribbble.com/users/1668916/avatars/small/open-uri20200914-13-kxvf7o?1600101072" alt="avatar">
+            <span class="nome-autor">Slavisa Dujkovic | logo</span>
+            <span class="selo">PRO</span>
+          </div>
+          <div class="estatisticas-card">
+            <span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+              55
+            </span>
+            <span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              4k
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="imagem-card">
+          <img src="https://cdn.dribbble.com/userupload/3675229/file/original-08df6b77d63bc5e5b0e55dcf6f1e69e7.jpg" alt="CBOX Pattern">
+        </div>
+        <div class="info-card">
+          <div class="autor-card">
+            <img class="avatar" src="https://cdn.dribbble.com/users/1738069/avatars/small/open-uri20200804-8-1l44cne?1596549968" alt="avatar">
+            <span class="nome-autor">Focus Lab + Odi</span>
+            <span class="selo equipe">TEAM</span>
+          </div>
+          <div class="estatisticas-card">
+            <span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+              47
+            </span>
+            <span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              5.9k
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="imagem-card">
+          <img src="https://cdn.dribbble.com/userupload/3831261/file/original-f3c1e1e3c6b4f9a7a6e3f1c1e3c6b4f9.png" alt="Stamps">
+        </div>
+        <div class="info-card">
+          <div class="autor-card">
+            <img class="avatar" src="https://cdn.dribbble.com/users/163672/avatars/small/photo.jpg?1631124427" alt="avatar">
+            <span class="nome-autor">Aleksandar Savic / Almigor</span>
+            <span class="selo">PRO</span>
+          </div>
+          <div class="estatisticas-card">
+            <span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+              44
+            </span>
+            <span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              4.1k
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="imagem-card">
+          <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?w=600&q=80" alt="Studio Norte">
+        </div>
+        <div class="info-card">
+          <div class="autor-card">
+            <img class="avatar" src="https://i.pravatar.cc/32?img=11" alt="avatar">
+            <span class="nome-autor">Studio Norte</span>
+            <span class="selo">PRO</span>
+          </div>
+          <div class="estatisticas-card">
+            <span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+              88
+            </span>
+            <span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              8.7k
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="imagem-card">
+          <img src="https://images.unsplash.com/photo-1636955816868-fcb881e57954?w=600&q=80" alt="Pixel Craft">
+        </div>
+        <div class="info-card">
+          <div class="autor-card">
+            <img class="avatar" src="https://i.pravatar.cc/32?img=15" alt="avatar">
+            <span class="nome-autor">Pixel Craft</span>
+            <span class="selo equipe">TEAM</span>
+          </div>
+          <div class="estatisticas-card">
+            <span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+              72
+            </span>
+            <span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              7.4k
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="imagem-card">
+          <img src="https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=600&q=80" alt="Visual Lab">
+        </div>
+        <div class="info-card">
+          <div class="autor-card">
+            <img class="avatar" src="https://i.pravatar.cc/32?img=22" alt="avatar">
+            <span class="nome-autor">Visual Lab</span>
+            <span class="selo">PRO</span>
+          </div>
+          <div class="estatisticas-card">
+            <span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+              101
+            </span>
+            <span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              9.8k
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="imagem-card">
+          <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&q=80" alt="Criativo Hub">
+        </div>
+        <div class="info-card">
+          <div class="autor-card">
+            <img class="avatar" src="https://i.pravatar.cc/32?img=33" alt="avatar">
+            <span class="nome-autor">Criativo Hub</span>
+            <span class="selo">PRO</span>
+          </div>
+          <div class="estatisticas-card">
+            <span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+              64
+            </span>
+            <span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+              6.3k
+            </span>
+          </div>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+</body>
+</html>
